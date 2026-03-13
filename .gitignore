@@ -1,0 +1,37 @@
+# Ignore Python virtual environments and dependencies
+.env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore large ML/ML community files
+*.so
+*.dylib
+*.whl
+/site-packages/
+/lib/python3.*/
+/lib64/python3.*/
+
+# Runtime generated content
+/var/
+/cache/
+/.gitignore.recursive
