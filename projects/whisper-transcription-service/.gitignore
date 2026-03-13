@@ -1,0 +1,8 @@
+lib/
+lib64/
+share/
+__pycache__/
+*.pyc
+*.pyo
+.env
+pyvenv.cfg
